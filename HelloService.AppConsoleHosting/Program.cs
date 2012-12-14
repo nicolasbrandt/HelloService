@@ -1,0 +1,21 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.ServiceModel;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace HelloService.AppConsoleHosting
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            ServiceHost host = new ServiceHost(typeof(IHelloService));
+            host.Open();
+            Console.WriteLine("Service is working!");
+            Console.WriteLine("Press any key to exit service...");
+            Console.ReadKey();
+        }
+    }
+}

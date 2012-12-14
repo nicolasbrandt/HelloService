@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloService", "HelloService\HelloService.csproj", "{A4E96037-FA05-4579-B8FD-1C0E0B071239}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloService.Contracts", "ClassLibrary1\HelloService.Contracts.csproj", "{055D39D5-B5B1-45F9-98ED-2B281FC70DD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloService.Implementation", "HelloService.Implementation\HelloService.Implementation.csproj", "{400E6169-E9AA-4248-9D74-6282B54453E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloService.AppConsoleHosting", "HelloService.AppConsoleHosting\HelloService.AppConsoleHosting.csproj", "{EFD2FADB-D386-4F85-B2AA-CF0398CC6E39}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A4E96037-FA05-4579-B8FD-1C0E0B071239}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4E96037-FA05-4579-B8FD-1C0E0B071239}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4E96037-FA05-4579-B8FD-1C0E0B071239}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4E96037-FA05-4579-B8FD-1C0E0B071239}.Release|Any CPU.Build.0 = Release|Any CPU
+		{055D39D5-B5B1-45F9-98ED-2B281FC70DD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{055D39D5-B5B1-45F9-98ED-2B281FC70DD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{055D39D5-B5B1-45F9-98ED-2B281FC70DD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{055D39D5-B5B1-45F9-98ED-2B281FC70DD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{400E6169-E9AA-4248-9D74-6282B54453E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{400E6169-E9AA-4248-9D74-6282B54453E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{400E6169-E9AA-4248-9D74-6282B54453E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{400E6169-E9AA-4248-9D74-6282B54453E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFD2FADB-D386-4F85-B2AA-CF0398CC6E39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFD2FADB-D386-4F85-B2AA-CF0398CC6E39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFD2FADB-D386-4F85-B2AA-CF0398CC6E39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFD2FADB-D386-4F85-B2AA-CF0398CC6E39}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
